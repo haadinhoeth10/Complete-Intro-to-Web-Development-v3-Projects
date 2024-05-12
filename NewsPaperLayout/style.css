@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mochiy+Pop+One&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mochiy+Pop+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.brand{
+    font-family:"Pacifico" ;
+    text-align: center;
+    
+}
+body{
+    padding: 30px;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color:#585858;
+    font-family: "Poppins";
+    font-weight: 540;
+
+
+}
+li:hover{
+    text-decoration: underline;
+    
+}
+/* .box{
+    border: 2px solid black;
+} */
+
+.flex{
+    border: 3px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "story1 story2 story3"
+    "story4 story5 story5";
+}
+
+.story1{
+    grid-area: story1;
+}
+.story2{
+    grid-area: story2;
+}
+.story3{
+    grid-area: story3;
+}
+.story4{
+    grid-area: story4;
+}
+.story5{
+    grid-area: story5;
+}
+.story {
+    padding: 10px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  
+  .story3, .story5 {
+    border-right: 3px solid black;
+  }
